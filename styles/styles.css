@@ -1,29 +1,58 @@
-.first {
-  background-color: red;
+.container .row .col {
+  background-color: darkred;
+  color: black;
+  padding: 2rem;
 }
-
-.second {
-  background-color: purple;
+.spacer {
+  height: 1.5rem;
 }
-
-.page {
-  height: 100rem;
-  width: 100vh;
+body {
+  margin: 0;
+  padding: 0;
+}
+.slide {
+  width: 100vw;
+  height: 100vh;
 }
 .wrapper {
-  width: 100vw;
-  height: 100rem;
-  transform: rotate(-90deg) translateX(-100vh);
-  transform-origin: top left;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  position: absolute;
-  scrollbar-width: none;
-}
-.container {
   display: flex;
   flex-direction: row;
   width: 400vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
+.one {
+  background: yellow;
+  background-size: auto 100vh;
+  background-repeat: repeat-x;
+  width: 400vw;
+  height: 100vh;
+}
+.two {
+  background: orange;
+  background-size: auto 100vh;
+  background-repeat: repeat-x;
+  width: 400vw;
+}
+.three {
+  background: red;
+  background-size: auto 100vh;
+  background-repeat: repeat-x;
+  width: 400vw;
+}
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+/*
+::-webkit-scrollbar {
+  display:none;
+}
+*/
