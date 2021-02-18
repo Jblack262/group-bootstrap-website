@@ -1,0 +1,29 @@
+.first {
+  background-color: red;
+}
+
+.second {
+  background-color: purple;
+}
+
+.page {
+  height: 100rem;
+  width: 100vh;
+}
+.wrapper {
+  width: 100vw;
+  height: 100rem;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
