@@ -1,11 +1,7 @@
-/*.container .row .col {
-  background-color: darkred;
-  color: black;
-  padding: 2rem;
-} */
+@import url(https://fonts.googleapis.com/css?family=VT323);
 * {
-  font-family: 'pretendo';
-  src: url(../fonts/Pretendo.ttf);
+	font-family: 'VT323', monospace ;
+	font-size: 1.15rem;
 }
 html {
   scroll-behavior: smooth;
@@ -31,7 +27,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-size: 2.5vh;
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 .wrapper {
   display: flex;
@@ -40,9 +36,11 @@ body {
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
+.container-fluid {
+  padding-left: 0px;
+}
 .one {
   background: #5D94F9;
-  border-right: .5rem solid black;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
@@ -50,8 +48,6 @@ body {
 }
 .two {
   background: #286BAF;
-  border-left: .5rem solid black;
-  border-right: .5rem solid black;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
@@ -59,40 +55,30 @@ body {
 .three {
   background: #014282;
   color: white;
-  border-left: .5rem solid black;
-  border-right: .5rem solid black;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
 }
 .four {
   background: #7851a9;
-  border-left: .5rem solid black;
-  border-right: .5rem solid black;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
 }
 .five {
   background: #9a9a9a;
-  border-left: .5rem solid black;
-  border-right: .5rem solid black;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
 }
 .six {
   background: #009ac7;
-  border-left: .5rem solid black;
-  border-right: .5rem solid black;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
 }
 .seven {
   background: #e60012;
-  border-left: .5rem solid black;
-  border-right: 1rem solid black;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
@@ -142,5 +128,6 @@ body {
     height: 100vh;
     overflow-x: scroll;
     overflow-y: scroll;
+    padding-bottom: 2.15rem;
   }
 }
