@@ -1,16 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
-* {
-	font-family: 'VT323', monospace ;
-	font-size: 1.15rem;
+:root {
+  --pages: 7;
 }
 html {
   scroll-behavior: smooth;
+  font-family: 'VT323', monospace;
+  font-size: 1.15rem;
 }
 .slide * {
   z-index: 2;
 }
-#specList{
-  font-size:2.5vh;
+#specList {
+  font-size: 2.5vh;
 }
 .spacer {
   height: 1.5rem;
@@ -18,9 +19,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  overflow:hidden;
+  overflow: hidden;
 }
-.img-fluid{
+.img-fluid {
   background: transparent;
 }
 .slide {
@@ -32,7 +33,7 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 700vw;
+  width: calc(100vw * var(--pages));
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
@@ -47,14 +48,14 @@ body {
   height: auto;
 }
 .one {
-  background: #5D94F9;
+  background: #5d94f9;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
   height: 100vh;
 }
 .two {
-  background: #286BAF;
+  background: #286baf;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
@@ -99,10 +100,17 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   position: absolute;
-  /*
-  scrollbar-width: none;
-  -ms-overflow-style: none;*/
 }
+.outer-wrapper::-webkit-scrollbar {
+  width: 2vh;
+}
+
+.outer-wrapper::-webkit-scrollbar-thumb {
+  background: red;
+  width: 10px;
+  border-radius: 10px;
+}
+
 .floor {
   position: absolute;
   bottom: 0;
@@ -183,3 +191,4 @@ body {
     padding-bottom: 2.15rem;
   }
 }
+
