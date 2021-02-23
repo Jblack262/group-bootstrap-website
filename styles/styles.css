@@ -110,7 +110,9 @@ body {
   width: 10px;
   border-radius: 10px;
 }
-
+#music{
+  background:#e4000f;
+}
 .floor {
   position: absolute;
   bottom: 0;
@@ -123,7 +125,7 @@ body {
     padding: 0;
 }
 .nav-item {
-  width: calc(100vw / 8);
+  width: calc(100vw / 9);
   color: black;
 }
 .nav-link {
