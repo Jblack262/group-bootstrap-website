@@ -39,6 +39,13 @@ body {
 .container-fluid {
   padding-left: 0px;
 }
+.col-sm .gameImgs {
+  width: 7vw;
+  min-width: 5vw;
+  margin: none;
+  padding: none;
+  height: auto;
+}
 .one {
   background: #5D94F9;
   background-size: auto 100vh;
@@ -133,12 +140,39 @@ body {
 }
 .btn-Light:hover {background: #A03E11;}
 
+@media only screen and (max-width: 992px) { 
+  .col-sm .gameImgs {
+    width: 6vw;
+    height: auto;
+  }
+}
 @media only screen and (max-width: 768px) {
+  .container {
+    margin: 0px;
+  }
+  .row {
+    width: 100vw;
+  }
   .slide {
     padding-top: 0;
   }
+  .col-sm .gameImgs {
+    width: auto;
+    height: 15vh;
+    padding: 0;
+  }
+  .slide {
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    padding-bottom: 2.15rem;
+  }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 577px) {
+  .col-sm .gameImgs {
+    width: 20vw;
+    height: auto;
+  }
   .floor {
     visibility: hidden;
   }
