@@ -43,9 +43,11 @@ function toggleDarkMode() {
 
     if (dark == true) {
       document.getElementById("logo").name = "moon"
+      document.getElementById("floor").style.backgroundImage = "url('images/brick.png')";
       dark = false;
     } else if (dark == false) {
       document.getElementById("logo").name = "sunny"
+      document.getElementById("floor").style.backgroundImage = "url('images/brick-dark.png')";
       dark = true;
     }
 }
