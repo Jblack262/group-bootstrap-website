@@ -4,6 +4,8 @@
 }
 html {
   scroll-behavior: smooth;
+}
+* {
   font-family: 'VT323', monospace;
   font-size: 1.15rem;
 }
@@ -40,13 +42,27 @@ body {
 .container-fluid {
   padding-left: 0px;
 }
-.col-sm .gameImgs {
-  width: 7vw;
-  min-width: 5vw;
-  margin: none;
-  padding: none;
-  height: auto;
+.imgs .gameImgs {
+  height: 8rem;
+  margin-left: auto;
+  margin-right: auto;
 }
+.imgs2 .gameImgs {
+  width: 10rem;
+}
+.imgs {
+  display: grid;
+  padding: 0;
+}
+.imgs2 {
+  display: grid;
+  padding: 0;
+}
+.imgs2 .a {grid-row: 1;}
+.imgs2 .c {grid-row: 1;}
+.a {grid-row: 1;}
+.b{grid-row: 1;}
+.c {grid-row: 1;}
 .one {
   background: #5d94f9;
   background-size: auto 100vh;
@@ -148,15 +164,17 @@ body {
 }
 .btn-Light:hover {background: #A03E11;}
 
-@media only screen and (max-width: 992px) { 
-  .col-sm .gameImgs {
-    width: 6vw;
-    height: auto;
+@media only screen and (max-width: 992px) {  
+  .imgs .gameImgs {
+    height: 6rem;
+  }
+  .imgs2 .gameImgs {
+    width: 6rem;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
   .container {
-    margin: 0px;
+    margin: 0;
   }
   .row {
     width: 100vw;
@@ -164,10 +182,11 @@ body {
   .slide {
     padding-top: 0;
   }
-  .col-sm .gameImgs {
-    width: auto;
-    height: 15vh;
-    padding: 0;
+  .imgs .gameImgs {
+    height: 13rem;
+  }
+  .imgs2 .gameImgs {
+    width: 6rem;
   }
   .slide {
     height: 100vh;
@@ -175,11 +194,20 @@ body {
     overflow-y: scroll;
     padding-bottom: 2.15rem;
   }
+  .imgs {
+    padding-right: 20px;
+  }
+  .imgs2 {
+    padding-right: 20px;
+  }
 }
 @media only screen and (max-width: 577px) {
-  .col-sm .gameImgs {
-    width: 20vw;
-    height: auto;
+  
+  .imgs .gameImgs {
+    height: 30vw;
+  }
+  .imgs2 .gameImgs {
+    width: 30vw;
   }
   .floor {
     visibility: hidden;
