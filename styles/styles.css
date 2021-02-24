@@ -103,7 +103,7 @@ body {
 }
 .one {
   font-family: pageOne;
-  font-size: 2.5vw;
+  font-size: 2.5vh;
   background: #5d94f9;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -112,7 +112,7 @@ body {
 }
 .two {
   font-family: pageTwo;
-  font-size: 4vw;
+  font-size: 4vh;
   background: #286baf;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -120,7 +120,7 @@ body {
 }
 .three {
   font-family: pageThree;
-  font-size: 2.5vw;
+  font-size: 2.5vh;
   background: #206636;
   color: black;
   background-size: auto 100vh;
@@ -129,7 +129,7 @@ body {
 }
 .four {
   font-family: pageFour;
-  font-size: 2.5vw;
+  font-size: 2.5vh;
   background: #7851a9;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -137,7 +137,7 @@ body {
 }
 .five {
   font-family: pageFive;
-  font-size: 2.5vw;
+  font-size: 2.5vh;
   background: #009ac7;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -145,7 +145,7 @@ body {
 }
 .six {
   font-family: pageSix;
-  font-size: 2.5vw;
+  font-size: 2.5vh;
   background: #9a9a9a;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -153,7 +153,7 @@ body {
 }
 .seven {
   font-family: pageSeven;
-  font-size: 3vw;
+  font-size: 3vh;
   background: #e60012;
   background-size: auto 100vh;
   background-repeat: repeat-x;
