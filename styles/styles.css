@@ -75,7 +75,6 @@ body {
 }
 @font-face {
   font-family: pageOne;
-  font-size: 3rem;
   src: url(../fonts/Pixel_NES.otf);
 }
 @font-face {
@@ -84,26 +83,27 @@ body {
 }
 @font-face {
   font-family: pageThree;
-  src: url(../fonts/super-mario-bros-font.zip);
+  src: url(../fonts/SuperMarioBros-ov7d.ttf);
 }
 @font-face {
   font-family: pageFour;
-  src: url(../fonts/);
+  src: url(../fonts/Wariowareincv2-2OOBw.ttf);
 }
 @font-face {
   font-family: pageFive;
-  src: url(../fonts/);
+  src: url(../fonts/SuperPlumberBrothers-y00V.ttf);
 }
 @font-face {
   font-family: pageSix;
-  src: url(../fonts/);
+  src: url(../fonts/Pretendo.ttf);
 }
 @font-face {
   font-family: pageSeven;
-  src: url(../fonts/);
+  src: url(../fonts/TheWildBreathOfZelda-15Lv.ttf);
 }
 .one {
   font-family: pageOne;
+  font-size: 2.5vw;
   background: #5d94f9;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -112,6 +112,7 @@ body {
 }
 .two {
   font-family: pageTwo;
+  font-size: 4vw;
   background: #286baf;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -119,6 +120,7 @@ body {
 }
 .three {
   font-family: pageThree;
+  font-size: 2.5vw;
   background: #206636;
   color: black;
   background-size: auto 100vh;
@@ -127,6 +129,7 @@ body {
 }
 .four {
   font-family: pageFour;
+  font-size: 2.5vw;
   background: #7851a9;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -134,6 +137,7 @@ body {
 }
 .five {
   font-family: pageFive;
+  font-size: 2.5vw;
   background: #009ac7;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -141,6 +145,7 @@ body {
 }
 .six {
   font-family: pageSix;
+  font-size: 2.5vw;
   background: #9a9a9a;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -148,6 +153,7 @@ body {
 }
 .seven {
   font-family: pageSeven;
+  font-size: 3vw;
   background: #e60012;
   background-size: auto 100vh;
   background-repeat: repeat-x;
