@@ -108,7 +108,7 @@ body {
 
 .outer-wrapper::-webkit-scrollbar-thumb {
   background: url(../images/nintendoLogos/197520px.png);
-  background-color: #00c3e3;
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 10px;
   background-repeat: no-repeat;
   background-position: center;
