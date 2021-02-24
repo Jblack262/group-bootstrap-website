@@ -5,7 +5,7 @@
 html {
   scroll-behavior: smooth;
 }
-* {
+body {
   font-family: 'VT323', monospace;
   font-size: 1.15rem;
 }
@@ -58,12 +58,52 @@ body {
   display: grid;
   padding: 0;
 }
-.imgs2 .a {grid-row: 1;}
-.imgs2 .c {grid-row: 1;}
-.a {grid-row: 1;}
-.b{grid-row: 1;}
-.c {grid-row: 1;}
+.imgs2 .a {
+  grid-row: 1;
+}
+.imgs2 .c {
+  grid-row: 1;
+}
+.a {
+  grid-row: 1;
+}
+.b {
+  grid-row: 1;
+}
+.c {
+  grid-row: 1;
+}
+@font-face {
+  font-family: pageOne;
+  font-size: 3rem;
+  src: url(../fonts/Pixel_NES.otf);
+}
+@font-face {
+  font-family: pageTwo;
+  src: url(../fonts/SNES.ttf);
+}
+@font-face {
+  font-family: pageThree;
+  src: url(../fonts/super-mario-bros-font.zip);
+}
+@font-face {
+  font-family: pageFour;
+  src: url(../fonts/);
+}
+@font-face {
+  font-family: pageFive;
+  src: url(../fonts/);
+}
+@font-face {
+  font-family: pageSix;
+  src: url(../fonts/);
+}
+@font-face {
+  font-family: pageSeven;
+  src: url(../fonts/);
+}
 .one {
+  font-family: pageOne;
   background: #5d94f9;
   background-size: auto 100vh;
   background-repeat: repeat-x;
@@ -71,12 +111,14 @@ body {
   height: 100vh;
 }
 .two {
+  font-family: pageTwo;
   background: #286baf;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
 }
 .three {
+  font-family: pageThree;
   background: #206636;
   color: black;
   background-size: auto 100vh;
@@ -84,45 +126,47 @@ body {
   width: 400vw;
 }
 .four {
+  font-family: pageFour;
   background: #7851a9;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
 }
 .five {
+  font-family: pageFive;
   background: #009ac7;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
 }
 .six {
+  font-family: pageSix;
   background: #9a9a9a;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
 }
 .seven {
+  font-family: pageSeven;
   background: #e60012;
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
 }
-#footer{
+#footer {
   position: absolute;
   display: flex;
   justify-content: center;
   width: 100vw;
   text-align: center;
-  bottom:0;
-  z-index:10;
+  bottom: 0;
+  z-index: 10;
 }
-#footer h1, #footer a {
+#footer h1,
+#footer a {
   color: black;
-  text-shadow:
-    -2px -2px 0 rgb(255, 255, 255),  
-    2px -2px 0 rgb(255, 255, 255),
-    -2px 2px 0 rgb(255, 255, 255),
-    2px 2px 0 rgb(255, 255, 255);
+  text-shadow: -2px -2px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 255, 255),
+    -2px 2px 0 rgb(255, 255, 255), 2px 2px 0 rgb(255, 255, 255);
 }
 .outer-wrapper {
   max-width: 700vh;
@@ -158,13 +202,13 @@ body {
   background: #e4000f;
 }
 #music:hover {
-  background: #8B0000;
+  background: #8b0000;
 }
 .Playbtn::after {
-  content: "Play Music";
+  content: 'Play Music';
 }
 .Stopbtn::after {
-  content: "Stop Music";
+  content: 'Stop Music';
 }
 .floor {
   position: absolute;
@@ -205,7 +249,7 @@ body {
   background: #a03e11;
 }
 
-@media only screen and (max-width: 992px) {  
+@media only screen and (max-width: 992px) {
   .imgs .gameImgs {
     height: 6rem;
   }
@@ -243,7 +287,6 @@ body {
   }
 }
 @media only screen and (max-width: 577px) {
-  
   .imgs .gameImgs {
     height: 30vw;
   }
