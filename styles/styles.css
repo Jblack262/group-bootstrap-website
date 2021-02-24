@@ -107,6 +107,13 @@ body {
   background-repeat: repeat-x;
   width: 400vw;
 }
+#footer{
+  position: absolute;
+  right:30rem;
+  bottom:0;
+  z-index:10;
+  color:white;
+}
 .outer-wrapper {
   max-width: 700vh;
   width: 100vh;
