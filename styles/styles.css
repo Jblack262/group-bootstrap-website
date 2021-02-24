@@ -140,6 +140,15 @@ body {
 #music {
   background: #e4000f;
 }
+#music:hover {
+  background: #8B0000;
+}
+.Playbtn::after {
+  content: "Play Music";
+}
+.Stopbtn::after {
+  content: "Stop Music";
+}
 .floor {
   position: absolute;
   bottom: 0;

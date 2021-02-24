@@ -23,6 +23,8 @@ var isPlaying = false;
 
 function togglePlay() {
   isPlaying ? myAudio.pause() : myAudio.play();
+  document.getElementById("music").classList.toggle("Playbtn");
+  document.getElementById("music").classList.toggle("Stopbtn");
 };
 
 myAudio.onplaying = function() {
